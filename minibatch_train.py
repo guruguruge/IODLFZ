@@ -1,5 +1,6 @@
 import numpy as np
 from mnist import load_mnist
+
 # from train_neuralnet import TwoLayerNet
 from backpropagation import TwoLayerNet
 
@@ -34,8 +35,8 @@ for i in range(iters_num):
         # print("gradient attained")
         network.params[key] -= learning_rate * grad[key]
 
-    loss = network.loss(x_batch, t_batch)
-    train_loss_list.append(loss)
+    # loss = network.loss(x_batch, t_batch)
+    # train_loss_list.append(loss)
 
     if i % iter_per_epoch == 0:
         train_acc = network.accuracy(x_train, t_train)
