@@ -88,7 +88,7 @@ def cross_entropy_error(y, t):
 
     safety = 1e-7
     batch_size = y.shape[0]
-    return np.sum(t * np.log(y[np.arange(batch_size), t] + safety)) / batch_size
+    return -np.sum(t * np.log(y[np.arange(batch_size), t] + safety)) / batch_size
 
 
 class SoftmaxLoss_l:

@@ -1,4 +1,5 @@
 import numpy as np
+from optimizer import *
 from mnist import load_mnist
 
 # from train_neuralnet import TwoLayerNet
@@ -17,11 +18,12 @@ test_acc_list = []
 iters_num = 10000
 train_size = x_train.shape[0]
 batch_size = 100
-learning_rate = 0.1
+optimizer = AddGrad()
+# learning_rate = 0.1
 
 iter_per_epoch = max(train_size / batch_size, 1)
 
-network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
+network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10,weight_init_std=0.1)
 
 for i in range(iters_num):
     batch_mask = np.random.choice(train_size, batch_size)
@@ -31,9 +33,11 @@ for i in range(iters_num):
     # grad = network.numerical_gradient(x_batch, t_batch)
     grad = network.gradient(x_batch, t_batch)
 
-    for key in ("W1", "b1", "W2", "b2"):
-        # print("gradient attained")
-        network.params[key] -= learning_rate * grad[key]
+    # for key in ("W1", "b1", "W2", "b2"):
+    #     # print("gradient attained")
+    #     network.params[key] -= learning_rate * grad[key]
+
+    optimizer.update(network.params, grad)
 
     # loss = network.loss(x_batch, t_batch)
     # train_loss_list.append(loss)
