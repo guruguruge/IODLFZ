@@ -10,7 +10,7 @@ from layers import *
 batch_size = 10
 wordvec_size = 100
 hidden_size = 100
-time_size = 5
+time_size = 1
 learning_rate = 0.1
 max_epoch = 100
 
