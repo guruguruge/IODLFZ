@@ -28,6 +28,9 @@
 -   [x] **第6章:** 学習に関するテクニック
 -   [x] **第7章:** 畳み込みニューラルネットワーク（CNN）
 -   [x] **第8章:** ディープラーニングの歴史
+        
+### 5,6章の輪講会
+https://docs.google.com/presentation/d/1xfNyKUx0jQNFypjIDZA3QQ-boIjdLFDSUo-yyc4lmFM/edit?usp=drive_link
 
 ### 2巻: 自然言語処理編
 
@@ -39,6 +42,9 @@
 -   [x] **第6章:** ゲート付きRNN
 -   [ ] **第7章:** RNNによる文章生成
 -   [ ] **第8章:** Attention
+
+### 5,6章の輪講会
+https://docs.google.com/presentation/d/1xfNyKUx0jQNFypjIDZA3QQ-boIjdLFDSUo-yyc4lmFM/edit?usp=drive_link
 
 ### 5巻: 生成モデル編
 
