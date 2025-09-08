@@ -44,7 +44,7 @@ https://docs.google.com/presentation/d/1xfNyKUx0jQNFypjIDZA3QQ-boIjdLFDSUo-yyc4l
 -   [ ] **第8章:** Attention
 
 ### 5,6章の輪講会プレゼンスライド
-https://docs.google.com/presentation/d/1xfNyKUx0jQNFypjIDZA3QQ-boIjdLFDSUo-yyc4lmFM/edit?usp=drive_link
+https://docs.google.com/presentation/d/1opfCJxPFtInvpVP5AUUT2RtXOIfBtCxSpB7pfKSSafE/edit?usp=sharing
 
 ### 5巻: 生成モデル編
 
