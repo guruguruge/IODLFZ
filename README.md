@@ -59,4 +59,4 @@ https://docs.google.com/presentation/d/1opfCJxPFtInvpVP5AUUT2RtXOIfBtCxSpB7pfKSS
 
 ## リポジトリ構成
 
-各章のフォルダには、書籍を参考に実装したPythonコードと、関連する学習ノートが含まれています。
+各章のフォルダには、書籍を参考に実装したPythonコードが含まれています
