@@ -40,20 +40,12 @@ https://docs.google.com/presentation/d/1xfNyKUx0jQNFypjIDZA3QQ-boIjdLFDSUo-yyc4l
 -   [x] **第4章:** ニューラルネットワークによる文章生成
 -   [x] **第5章:** 再帰型ニューラルネットワーク（RNN）
 -   [x] **第6章:** ゲート付きRNN
--   [ ] **第7章:** RNNによる文章生成
--   [ ] **第8章:** Attention
+-   [x] **第7章:** RNNによる文章生成
+-   [x] **第8章:** Attention
 
 ### 5,6章の輪講会プレゼンスライド
 https://docs.google.com/presentation/d/1opfCJxPFtInvpVP5AUUT2RtXOIfBtCxSpB7pfKSSafE/edit?usp=sharing
 
-### 5巻: 生成モデル編
-
--   [ ] **第1章:** ニューラルネットワークの復習
--   [ ] **第2章:** ベイズ最適化
--   [ ] **第3章:** 変分オートエンコーダ（VAE）
--   [ ] **第4章:** 敵対的生成ネットワーク（GAN）
--   [ ] **第5章:** Invertible NetworkとFlowモデル
--   [ ] **第6章:** 拡散モデル（Diffusion Model）
 
 ---
 
